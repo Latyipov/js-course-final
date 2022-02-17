@@ -77,7 +77,7 @@ module.exports = {
   output: {
     publicPath: isDev?'/':('/' + process.env.URL_PATH || ''),
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: isDev?path.resolve(__dirname, 'dist'):path.resolve(__dirname, 'build'),
     chunkFilename: '[name]-[id].js',
     clean: true
   },
