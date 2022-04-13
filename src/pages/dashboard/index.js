@@ -1,6 +1,6 @@
 import RangePicker from '../../components/range-picker/index.js';
 import SortableTable from '../../components/sortable-table/index.js';
-import ColumnChart from '../../components/column-chart/index.js';
+import {ColumnChart} from '../../components/column-chart/index.js';
 import header from './bestsellers-header.js';
 
 import fetchJson from '../../utils/fetch-json.js';

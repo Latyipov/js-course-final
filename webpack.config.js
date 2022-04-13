@@ -79,7 +79,7 @@ module.exports = {
     filename: '[name].bundle.js',
     path: isDev?path.resolve(__dirname, 'dist'):path.resolve(__dirname, 'build'),
     chunkFilename: '[name]-[id].js',
-    clean: true
+    clean: true,
   },
   devtool: isDev ?'eval-cheap-module-source-map':'source-map',
   optimization: optimization(),
@@ -112,7 +112,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(png|jpg|svg|gif|ttf|woff|woff2|eot)$/i,
+        test: /\.(png|jpg|gif|svg|ttf|woff|woff2|eot)$/i,
         type: 'asset/resource'
       },
       {

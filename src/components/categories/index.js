@@ -3,7 +3,7 @@ import fetchJson from '../../utils/fetch-json.js';
 import SortableList from '../../components/sortable-list/index.js';
 import NotificationMessage from '../../components/notification/index.js';
 
-export default class Categories {
+export class Categories {
 
   element; //html element
 

@@ -1,4 +1,4 @@
-import Categories from '../../components/categories/index.js';
+import {Categories} from '../../components/categories';
 import fetchJson from '../../utils/fetch-json.js';
 
 const BACKEND_URL = process.env.BACKEND_URL;

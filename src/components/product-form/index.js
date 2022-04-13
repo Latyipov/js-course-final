@@ -369,17 +369,18 @@ export default class ProductForm {
   }
 
   getImageItem(url, name) {
+    
     const wrapper = document.createElement('div');
 
     wrapper.innerHTML = `
       <li class="products-edit__imagelist-item sortable-list__item">
         <span>
-          <img src="icon-grab.svg" data-grab-handle alt="grab">
+          <img src=${require("./icon-grab.svg")} data-grab-handle alt="grab">
           <img class="sortable-table__cell-img" alt="${escapeHtml(name)}" src="${escapeHtml(url)}">
           <span>${escapeHtml(name)}</span>
         </span>
         <button type="button">
-          <img src="icon-trash.svg" alt="delete" data-delete-handle>
+          <img src="${require("./icon-trash.svg")}" alt="delete" data-delete-handle>
         </button>
       </li>`;
 
