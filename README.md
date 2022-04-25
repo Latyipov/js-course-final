@@ -7,7 +7,7 @@ For correct build via Webpack you must have:
 
 This project made in learning courses "JavaScript/DOM/UI for programmers" (https://learn.javascript.ru/courses/js)
 
-Project - part of common front end interface for web market. In project using only JavaScript.
+Project - part of the common front end interface for web market. In the project we used Vanilla JavaScript.
 
 ## Preview
 
